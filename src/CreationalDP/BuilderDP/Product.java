@@ -14,7 +14,8 @@ public class Product {
     public Product() {
     }
 // parametreli const.
-    public Product(Long id, String name, LocalDateTime date, boolean inStock, String description, int price) {
+    public Product(Long id, String name, LocalDateTime date,
+                   boolean inStock, String description, int price) {
         this.id = id;
         this.name = name;
         this.date = date;
