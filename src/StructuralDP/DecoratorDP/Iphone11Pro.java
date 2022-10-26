@@ -12,7 +12,7 @@ public class Iphone11Pro extends PhoneDecorator{
 
     @Override
     public String getName() {
-        return super.getName()+"11Pro";
+        return super.getName()+"11 Pro";
     }
 
     @Override
